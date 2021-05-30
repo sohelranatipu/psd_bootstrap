@@ -1,0 +1,161 @@
+/*font-family: 'Poppins', sans-serif;*/
+body{
+font-family: 'Poppins', sans-serif;
+}
+/*header start*/
+header{
+background-color: #DAAC00;
+color: #fff;
+}
+.menu ul li a{
+margin: 0 18px;
+font-size: 22px;
+font-weight: 500;
+color: #fff !important;
+}
+.menu ul li a:hover{
+color: #00BEC9 !important;
+}
+/*form*/
+.c_form{
+width: 200px;
+border: none;
+border-radius: 0;
+background-color: #FCC302;
+
+}
+header ::-webkit-input-placeholder{
+color: #fff !important;
+}
+.c_form:focus{
+outline: 0;
+background-color:#FCC302;
+box-shadow: none;
+border-color: unset;
+border: 0;
+}
+/*search box*/
+.c_button{
+border: none;
+border-radius: 0;
+background-color: #00BEC9 ;
+}
+.c_button:focus{
+outline: 0;
+background-color:#FCC302;
+box-shadow: none;
+border-color: unset;
+border: 0;
+}
+/*header end*/
+/*banner start*/
+.banner{
+background-color: #FCC302;
+padding: 90px 0 100px 0
+}
+.b_button{
+margin-top: 40px;
+}
+.b_button button{
+color: #Fff;
+border: 2px solid #Fff;
+border-radius: 5px;
+transition: 1s;
+}
+.b_button button:hover{
+background-color: #00BEC9;
+border: 0;
+}
+.banner-left{
+margin-top: 95px;
+width: 667px;
+}
+.banner-left h1{
+font-size: 67px;
+font-weight: 600;
+color: #FFFFFF;
+}
+.banner-left p{
+font-size: 28px;
+color: #FFFFFF;
+letter-spacing: 0px;
+}
+/*banner end*/
+/*service start*/
+.service{
+padding: 120px 0;
+}
+.ser_text{
+margin-top: 50px;
+width: 560px;
+}
+.ser_text h1{
+font-size: 50px;
+font-weight: 600px;
+}
+.ser_text p{
+font-size: 28px;
+}
+.s_button button{
+background-color:#FCC302;
+}
+.s_button button:hover{
+background-color:#DAAC00;
+}
+.ser_img{
+width: 80%;
+float: right;
+}
+/*service end*/
+/*title start*/
+.title{
+background-color: #FCC302;
+padding: 80px 0;
+}
+.t_text h1{
+font-size: 60px;
+font-weight: 600;
+color: #fff;
+}
+.t_text p{
+font-size: 28px;
+color: #fff;
+}
+.t_single h3{
+	font-size: 40px;
+	font-weight: 600;
+	color: #fff;
+	margin-top: 20px;
+}
+.t_single p{
+	font-size: 24px;
+	color: #fff;
+	line-height: 28px;
+}
+/*footer start*/
+footer{
+	background-color: #343434;
+	padding: 80px 0;
+}
+.f_list{
+	color: #fff;
+}
+
+.f_list ul li {
+	font-size: 20px;
+}
+.f_right{
+	float: right;
+	color: #fff;
+}
+.f_form{
+	width: 100%;
+}
+.icon{
+	 
+}
+.icon i{
+	font-size: 25px;
+	margin: 20px 5px;
+}
+/*footer end*/
